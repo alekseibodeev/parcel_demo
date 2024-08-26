@@ -1,5 +1,3 @@
-import "./style.css";
-
 const countDisplay = document.querySelector("#count");
 const countUpButton = document.querySelector("#count-up");
 
