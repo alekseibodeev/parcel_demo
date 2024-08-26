@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "parcel './apps/*/index.html'",
+    "build": "parcel build './apps/*/index.html'"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
