@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "parcel './apps/*/index.html'",
-    "build": "parcel build './apps/*/index.html'"
+    "build": "parcel build './apps/*/index.html' --public-url /parcel_demo/"
   },
   "devDependencies": {
     "parcel": "^2.12.0"
