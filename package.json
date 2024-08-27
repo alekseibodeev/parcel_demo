@@ -1,6 +1,7 @@
 {
   "scripts": {
     "dev": "parcel './apps/*/index.html'",
+    "prebuild": "rm -rf dist",
     "build": "parcel build './apps/*/index.html' --public-url /parcel_demo/"
   },
   "devDependencies": {
