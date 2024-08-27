@@ -1,0 +1,9 @@
+{
+  "name": "my_second_app",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "parcel index.html",
+    "prebuild": "rm -rf dist",
+    "build": "parcel build index.html"
+  }
+}
