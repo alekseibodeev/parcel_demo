@@ -9,7 +9,7 @@ const renderCount = (count) => {
 
 const incrementCount = () => ++count;
 
-renderCount(incrementCount());
+renderCount(count);
 
 countUpButton.addEventListener("click", () => {
   renderCount(incrementCount());
